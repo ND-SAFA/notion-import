@@ -1,0 +1,15 @@
+{
+  "artifacts": [
+    {
+      "type": "Notion Requirement",
+      "fileName": "Notion Requirement.json"
+    }
+  ],
+  "traces": [
+      {
+      "sourceType": "Notion Requirement",
+      "targetType": "Notion Requirement",
+      "fileName": "Notion Requirement2Notion Requirement.json"
+    }
+  ]
+}
