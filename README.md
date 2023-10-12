@@ -1,6 +1,6 @@
 # Notion Import
 
-A script for converting Notion pages into a SAFA CSV file.
+A script for converting Notion pages into SAFA project files.
 
 ## Getting Started
 
