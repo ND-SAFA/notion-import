@@ -6,9 +6,6 @@
             "body": "I can import multiple github repositories to the same SAFA project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -18,9 +15,6 @@
             "body": "I can edit the explanation of a generated trace link to refine its reasoning. \n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -30,9 +24,6 @@
             "body": "I can only edit and sync a project\u2019s integrations with the permission `project.edit_integrations`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -42,9 +33,6 @@
             "body": "I can only create or delete versions with the permission `project.edit_versions`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -54,9 +42,6 @@
             "body": "I can only edit a project\u2019s data - artifacts, traces, artifact types, trace matrices, views - with the permission `project.edit_data`.\n\n<br/>\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -66,9 +51,6 @@
             "body": "I can only generate data for my project with the permission `project.generate`.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -78,9 +60,6 @@
             "body": "I can only view projects owned by my team if I have the permission `team.view_projects` or  `project.view`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -90,9 +69,6 @@
             "body": "I cannot see a team\u2019s members without the permission `team.view`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -102,9 +78,6 @@
             "body": "I can only delete a team with the permission `org.delete_teams` or `team.delete`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -114,9 +87,6 @@
             "body": "I can only view organization billing information with the permission `org.view_billing`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -126,9 +96,6 @@
             "body": "I can see spending and billing information about my organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -138,9 +105,6 @@
             "body": "I can only view an organization\u2019s team and members with the permission `org.view`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -150,9 +114,6 @@
             "body": "I can only delete an organization:\n\n- With the permission `org.delete`.\n\n- If it is not my personal organization.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -162,9 +123,6 @@
             "body": "I can only add, edit, or remove an organization member:\n\n- With the permission `org.edit_members`.\n\n- With a permission level equal or lower than myself.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -174,9 +132,6 @@
             "body": "I can edit the role of a member in my organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -186,9 +141,6 @@
             "body": "I can remove a member or myself from an organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -198,9 +150,6 @@
             "body": "I can add a member to my organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -210,9 +159,6 @@
             "body": "I can only edit an organization with the permission `org.edit`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -222,9 +168,6 @@
             "body": "I can only create an organization with the permission `safa.create_orgs`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -234,9 +177,6 @@
             "body": "I can switch my current organization to view projects within another. The last organization I\u2019ve viewed will be my default the next time I open the app.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -246,9 +186,6 @@
             "body": "I can edit the metadata of my organization\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -258,9 +195,6 @@
             "body": "I can delete an organization I am a member of.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -270,9 +204,6 @@
             "body": "I can create a new organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -282,9 +213,6 @@
             "body": "I can see the members of my organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -294,9 +222,6 @@
             "body": "I can see the name and description of my organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -306,9 +231,6 @@
             "body": "Manages membership and permissions within an organization.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -318,9 +240,6 @@
             "body": "Manages general organization functionality, such as creation, editing, and deletion.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -330,9 +249,6 @@
             "body": "Manages the display of organization data.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -342,9 +258,6 @@
             "body": "This epic manages access control on organization data, including the organization\u2019s teams, members, and their permissions, \n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -354,9 +267,6 @@
             "body": "I can only add, edit, or remove a team member:\n\n- If I have the permission `team.edit_members`.\n\n- With a permission level equal or lower than myself.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -366,9 +276,6 @@
             "body": "I can remove a member or myself from a team.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -378,9 +285,6 @@
             "body": "I can edit the role of a member of my team.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -390,9 +294,6 @@
             "body": "I can add a new member to my team.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -402,9 +303,6 @@
             "body": "I cannot see teams within my organization that I am not a member of unless I have the permission `org.view_teams`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -414,9 +312,6 @@
             "body": "I can only create a new team with the permission `org.create_teams`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -426,9 +321,6 @@
             "body": "I can only edit a team with the permission `team.edit`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -438,9 +330,6 @@
             "body": "I can only create projects for my team with the permission `team.create_projects`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -450,9 +339,6 @@
             "body": "I can edit the name of my team.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -462,9 +348,6 @@
             "body": "I can delete a team in my organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -474,9 +357,6 @@
             "body": "I can create a new team in my organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -486,9 +366,6 @@
             "body": "I can search for members within my team.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -498,9 +375,6 @@
             "body": "I can see members of my team.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -510,9 +384,6 @@
             "body": "I can see projects owned by my team.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -522,9 +393,6 @@
             "body": "I can see teams in my organization.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -534,9 +402,6 @@
             "body": "Manages membership and permissions within an team.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -546,9 +411,6 @@
             "body": "Manages teams within an organization, including creating, editing, and deleting them.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -558,9 +420,6 @@
             "body": "Manages the display of team information, such as the associated members and projects.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -570,9 +429,6 @@
             "body": "This epic manages access control on team data, including the teams projects, members, and their permissions, \n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -582,9 +438,6 @@
             "body": "The management of all permission checks across the entire system.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -594,9 +447,6 @@
             "body": "This epic manages general access control via roles on projects, teams, and organizations. Roles manage permissions to view and modify all data within the system.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -606,9 +456,6 @@
             "body": "All functionality related to managing roles on projects, teams, and organizations.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -618,9 +465,6 @@
             "body": "I can see project metadata such as its name, versions, and description.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -630,9 +474,6 @@
             "body": "This epic manages access control on project data, including the members of the project, and what their roles allow them to see and do. \n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -642,9 +483,6 @@
             "body": "This epic manages all access management permissions, to granularly control what members of projects, teams, and orgs can view and edit. \n\n",
             "type": "Epic Suite",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -654,9 +492,6 @@
             "body": "I can see how trace links have changed between versions.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -666,9 +501,6 @@
             "body": "I can see how an artifact has changed between versions.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -678,9 +510,6 @@
             "body": "I can see a list of all cached version deltas.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -690,9 +519,6 @@
             "body": "I can cache and load version deltas, so they do not get unnecessarily regenerated.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -702,9 +528,6 @@
             "body": "I can open a cached delta summary, so that the summarization does not change between times that I view it. \n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -714,9 +537,6 @@
             "body": "I can generate a delta for a pull request between its source and target branches.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -726,9 +546,6 @@
             "body": "I can see the generated summary of changes between project versions.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -738,9 +555,6 @@
             "body": "I can generate a summary of the changes between two project versions.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -750,9 +564,6 @@
             "body": "I can view a summary of the changes between two project versions.\n\n<br/>\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -762,9 +573,6 @@
             "body": "I can see the generated summary of an artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -774,9 +582,6 @@
             "body": "I can see the generated summary of a delta between my project versions.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -786,9 +591,6 @@
             "body": "This feature manages the generation of summaries of project versions, and changes between project versions.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -798,9 +600,6 @@
             "body": "I can generate a summary of how an artifact has been changed between versions.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -810,9 +609,6 @@
             "body": "A summary is displayed for single project versions, and of changes between project versions.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -822,9 +618,6 @@
             "body": "I can view the generated summary of my most recent project version.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -834,9 +627,6 @@
             "body": "I can generate a summary of my most recent project version\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -846,9 +636,6 @@
             "body": "A summary is generated and displayed for the current project version, and can be generated between project versions.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -858,9 +645,6 @@
             "body": "I can see generated summaries of entire project versions or changes between versions.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -870,9 +654,6 @@
             "body": "I can see the names of artifacts, with the path of code artifacts separated from the file name.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -882,9 +663,6 @@
             "body": "The tim tree will display a context menu when the graph is right clicked, displaying common addition actions: draw trace matrix, generate artifacts, and generate traces. \n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -894,9 +672,6 @@
             "body": "The artifact tree will display a context menu when the graph is right clicked, displaying common addition actions: create artifact, create trace, draw trace, generate artifacts, and generate traces. \n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -906,9 +681,6 @@
             "body": "I can draw a trace link between artifacts or artifact types.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -918,9 +690,6 @@
             "body": "The project tree will display a context menu when the graph is right clicked, displaying common addition actions.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -930,9 +699,6 @@
             "body": "I should be able to read a reason for why a generated trace link may relate two artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -942,9 +708,6 @@
             "body": "I can select a node to see an action sidebar allowing me to perform common actions on the artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -954,9 +717,6 @@
             "body": "When delta view is enabled, I cannot switch between project views.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -966,9 +726,6 @@
             "body": "I cannot enter delta view if I only have 1 project version.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -978,9 +735,6 @@
             "body": "I can filter the artifact table by whether artifacts are only traced or only orphaned.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -990,9 +744,6 @@
             "body": "I can see the trace matrices between artifact types in my project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1002,9 +753,6 @@
             "body": "I can see the types of artifacts in my project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1014,9 +762,6 @@
             "body": "TIM tree edges represent trace matrices. Click on an edge to see more information, and click again to see artifacts within that trace matrix.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1026,9 +771,6 @@
             "body": "TIM tree nodes represent artifact types. Click on a node to see more information, and click again to see artifacts of that type.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1038,9 +780,6 @@
             "body": "The TIM tree displays an overview of project data types, and the relationships between them.\n\nFrom the TIM tree, you can select types or trace matrices to see summaries of project content, and view those artifacts specifically.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1050,9 +789,6 @@
             "body": "<br/>\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1062,9 +798,6 @@
             "body": "I can view a trace link to see its parent and child artifacts, approval status if generated, and generated explanation.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1074,9 +807,6 @@
             "body": "I can generate a view that includes all artifacts in the subtree and supertree of a given artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1086,9 +816,6 @@
             "body": "I can generate a view including all artifacts of a given parent and child type.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1098,9 +825,6 @@
             "body": "I can generate a view including all artifacts of a given type.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1110,9 +834,6 @@
             "body": "I can save a view that has been generated, so I can easily access it in future sessions.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1122,9 +843,6 @@
             "body": "This feature covers the various kinds of views that can be automatically generated to view a project subset.\n\nThese views are unsaved by default, but a save button can be clicked to permanently store them.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1134,9 +852,6 @@
             "body": "I can see the body content of an artifact, and a generated summary of that content if one exists.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1146,9 +861,6 @@
             "body": "When searching for artifacts, I can filter what types of artifacts I can see in the search list.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1158,9 +870,6 @@
             "body": "When creating a trace link and searching for an artifact, the parent and child artifacts will automatically be filtered by the types of parent and child artifacts set. \n\nIf parent artifacts are set, the parent artifact search will default to only showing artifacts with similar types, and the child artifact search will default to only types that trace to those parent types.\n\nIf child artifacts are set, the child artifact search will default to only showing artifacts with similar types, and the parent artifact search will default to only types that trace to those child types.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1170,9 +879,6 @@
             "body": "Based on an artifact, I can create a trace link to a child artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1182,9 +888,6 @@
             "body": "Based on an artifact, I can create a trace link to a child artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1194,9 +897,6 @@
             "body": "I can create a trace link from one parent to multiple child artifacts, or one child to multiple parent artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1206,9 +906,6 @@
             "body": "I can generate a set of parent artifacts by selecting a type of child artifact and type of parent to generate. The child artifacts will be clustered by functionality, with a parent artifact generated for each cluster.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1218,9 +915,6 @@
             "body": "I can generate a single parent artifact by selecting a set of child artifacts and a parent artifact type to generate. The generated parent will summarize the functionality of the child artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1230,9 +924,6 @@
             "body": "Displays a side panel for generating parent artifacts, given an artifact type to generate and the artifacts to generate from.\n\nI can open generation from the project view by:\n\n- Clicking the\u00a0`+`\u00a0followed by\u00a0`Generate Artifacts`.\n\n- Right clicking followed by\u00a0`Generate Artifacts`.\n\n- Holding shift and drag clicking to select artifacts, then right clicking followed by\u00a0`Generate Artifacts`\u00a0to use the selected artifacts for generation.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1242,9 +933,6 @@
             "body": "When an artifact or trace link is added or removed, the trace matrix counts will be recalculated, and an update notification will be sent to the front-end.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1254,9 +942,6 @@
             "body": "I can see a summary of each trace matrix between artifact types in my project, including the count of manual, generated, and approved trace links.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1266,9 +951,6 @@
             "body": "When an artifact is added or removed, the artifact type counts will be recalculated, and an update notification will be sent to the front-end.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1278,9 +960,6 @@
             "body": "I can see a summary of each artifact type in my project, including its icon, color, and the number of artifacts of that type.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1290,9 +969,6 @@
             "body": "A high level project summary on the types of artifacts, and trace matrices between those artifacts, will be generated.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1302,9 +978,6 @@
             "body": "When an artifact or trace link is added or removed, the subtree will be recalculated, and an update notification will be sent to the front-end.\n\n<br/>\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1314,9 +987,6 @@
             "body": "The traces between all artifacts and all of their parent and child artifacts, n-links away in the graph, will be generated for each project version.\n\nIf there are cycles within a subtree, the subtree will be generated for up to when a loop is encountered.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1326,9 +996,6 @@
             "body": "This feature covers the generation of the subtrees of artifacts, as well as notifications to the front-end when that calculation is updated.\n\n<br/>\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1338,9 +1005,6 @@
             "body": "This Epic covers the generation and display of the relationships between each artifact and all parent or child artifacts that it is traced to recursively through all types of artifacts.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1350,9 +1014,6 @@
             "body": "A generated artifact summary must be approved before it is saved.\n\nIf a generated summary is unfavorable, it can be declined or generation can be retried. \n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1362,9 +1023,6 @@
             "body": "When viewing an artifact, I can generate a summary based on its content.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1374,9 +1032,6 @@
             "body": "Summarization display describes how summarization features are displayed and interacted with.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1386,9 +1041,6 @@
             "body": "I can see the results of my search query.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1398,9 +1050,6 @@
             "body": "I can search my project for artifacts that are related specified artifact types, generating trace links in the process.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1410,9 +1059,6 @@
             "body": "I can search my project for artifacts that are related specified artifacts, generating trace links in the process.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1422,9 +1068,6 @@
             "body": "I can search my project for artifacts that are related to a search prompt.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1434,9 +1077,6 @@
             "body": "Project search allows users to search for artifacts within their project that match a prompt, artifact, or artifact type. The user will define what artifact types to search for relationships to, the maximum search results to display, and what types of artifacts to include if they are traced to the search result artifacts. Trace links will be generated when searching based on artifacts or artifact types.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1446,9 +1086,6 @@
             "body": "This epic includes all functionality for searching within project data using our models and displaying the results.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1458,9 +1095,6 @@
             "body": "I cannot edit a custom attribute that is created for integrations, which has an attribute key starting with `~`. \n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1470,9 +1104,6 @@
             "body": "When importing artifacts from GitHub, two non-editable custom attributes are created:\n\n1. `~gh:repo_path`: Full path to the file relative to the root of the repository.\n\n2. `~gh:link`: Direct link to the blob that represents this version of the file.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1482,9 +1113,6 @@
             "body": "My changes to dark mode save between sessions.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1494,9 +1122,6 @@
             "body": "I can toggle dark mode to change the app colors to dark.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1506,9 +1131,6 @@
             "body": "Switch to dark mode to change the background colors to dark rather than light.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1518,9 +1140,6 @@
             "body": "Manage the colors that are displayed to assist with color blindness and brightness levels at night.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1530,9 +1149,6 @@
             "body": "The app has a WIKI to walk users through interacting with all features in detail.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1542,9 +1158,6 @@
             "body": "I can click the link in my project settings to view the user guides for the app.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1554,9 +1167,6 @@
             "body": "Display a walkthrough of app functionality to familiarize a user with using SAFA.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1566,9 +1176,6 @@
             "body": "The app has guides for users to figure out how to use all functionality.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1578,9 +1185,6 @@
             "body": "Ensures that the app is accessible by making it easier for users to know what to do and to support people with disabilities such as color blindness.\n\n",
             "type": "Epic Suite",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1590,9 +1194,6 @@
             "body": "I can only edit a project\u2019s metadata - name, description, and custom attributes - with the permission `project.edit`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1602,9 +1203,6 @@
             "body": "I can only delete projects from my team with the permission `team.delete_projects` or `project.delete`.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1614,9 +1212,6 @@
             "body": "I can only add, edit, or remove a project member:\n\n- With the permission `project.edit_members`.\n\n- With a permission level equal or lower than myself.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1626,9 +1221,6 @@
             "body": "I can only leave a project if:\n\n- I am not the last project owner.\n\n- The project was shared with me directly, and not with one of my teams.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1638,9 +1230,6 @@
             "body": "I can group the artifacts most likely impacted by a change\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1650,9 +1239,6 @@
             "body": "<br/>\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1662,9 +1248,6 @@
             "body": "I can cluster groups of artifacts of the same level for downstream tasks\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1674,9 +1257,6 @@
             "body": "<br/>\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1686,9 +1266,6 @@
             "body": "Generate artifacts for clusters of related artifacts.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1698,9 +1275,6 @@
             "body": "I can provide feedback on generations to help the output meet my goals.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1710,9 +1284,6 @@
             "body": "Refine the performance of models based on what generated content is approved and denied.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1722,9 +1293,6 @@
             "body": "I can fine-tune a model to adjust artifact generation in a specific format and domain.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1734,9 +1302,6 @@
             "body": "I can generate content for lower-level artifacts from content of a higher level artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1746,9 +1311,6 @@
             "body": "Fine tune custom models on project data to improve their performance.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1758,9 +1320,6 @@
             "body": "Generate lower level artifacts for higher level artifacts.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1770,9 +1329,6 @@
             "body": "Generate higher level requirements for sets of lower level requirements.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1782,9 +1338,6 @@
             "body": "I can summarize content written in natural language to reduce length while capturing overall functionality.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1794,9 +1347,6 @@
             "body": "I can summarize python code to reduce length while capturing overall functionality.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1806,9 +1356,6 @@
             "body": "Summarize the content of long form artifacts.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1818,9 +1365,6 @@
             "body": "Generate summaries of code files or blocks.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1830,9 +1374,6 @@
             "body": "Summarize the content of artifacts in natural language.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1842,9 +1383,6 @@
             "body": "Generate new artifacts based on project data.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1854,9 +1392,6 @@
             "body": "I can switch between project versions.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1866,9 +1401,6 @@
             "body": "I can see a walkthrough of the application.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1878,9 +1410,6 @@
             "body": "I can see what artifacts are missing traces between two artifact layers.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1890,9 +1419,6 @@
             "body": "I can see the over-coverage between two artifact layers.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1902,9 +1428,6 @@
             "body": "I can see the under-coverage between two artifact layers.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1914,9 +1437,6 @@
             "body": "Generate coverage information for the relationships between two layers of artifacts.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1926,9 +1446,6 @@
             "body": "I can filter the trace matrix table rows and columns by artifact type.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1938,9 +1455,6 @@
             "body": "View, sort, group, and filter artifacts in a matrix showing what artifacts are related.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1950,9 +1464,6 @@
             "body": "Display generated trace links for approval.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1962,9 +1473,6 @@
             "body": "I can search through artifacts in my project by their name, body, and type.\n\n<br/>\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1974,9 +1482,6 @@
             "body": " I can select a trace link to view more details.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1986,9 +1491,6 @@
             "body": "Interact with artifacts and trace links in the artifact tree.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -1998,9 +1500,6 @@
             "body": "Enforcing and displaying our data privacy policy.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2010,9 +1509,6 @@
             "body": "Represents functionality for synchronizing updates to project data.\n\n",
             "type": "Epic Suite",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2022,9 +1518,6 @@
             "body": "Represents all functionality for generating project content using AI, such as generated traceability and requirements generation.\n\n",
             "type": "Epic Suite",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2034,9 +1527,6 @@
             "body": "Represents all features for visualizing project data through graph and table views.\n\n",
             "type": "Epic Suite",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2046,9 +1536,6 @@
             "body": "Represents all functionality related to data stored within a project, such as project versions, artifacts, and trace links.\n\n",
             "type": "Epic Suite",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2058,9 +1545,6 @@
             "body": "Represents all functionality related to importing data into the platform and exporting data back out, via file upload and integrations.\n\n",
             "type": "Epic Suite",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2070,9 +1554,6 @@
             "body": "Represents all functionality related to access to the app and data security.\n\n",
             "type": "Epic Suite",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2082,9 +1563,6 @@
             "body": "The types of artifacts within a project, and what directions of trace links can be created between them.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2094,9 +1572,6 @@
             "body": "Exporting project data via file downloads and integrations.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2106,9 +1581,6 @@
             "body": "I can upload flat files to the current view.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2118,9 +1590,6 @@
             "body": "I can delete a project version.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2130,9 +1599,6 @@
             "body": "I can upload new flat files to a project version.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2142,9 +1608,6 @@
             "body": "I can create a new major, minor, or revision version.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2154,9 +1617,6 @@
             "body": "As an owner, I can delete a project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2166,9 +1626,6 @@
             "body": "I can edit a project\u2019s name and description.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2178,9 +1635,6 @@
             "body": "I can edit custom attribute values on artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2190,9 +1644,6 @@
             "body": "Store values for existing custom attributes on artifacts.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2202,9 +1653,6 @@
             "body": "I can export artifact custom attributes values to CSV or JSON.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2214,9 +1662,6 @@
             "body": "I can import artifact custom attributes from CSV or JSON.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2226,9 +1671,6 @@
             "body": "I cannot change the key or data type of a custom attribute.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2238,9 +1680,6 @@
             "body": "I can view artifacts in a trace matrix table.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2250,9 +1689,6 @@
             "body": "I can view artifacts in a table.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2262,9 +1698,6 @@
             "body": "Manage what custom attributes appear for different types of artifacts, and the layout they appear in.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2274,9 +1707,6 @@
             "body": "Tracking any set of custom attributes on project artifacts, and storing layouts for displaying those attributes.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2286,9 +1716,6 @@
             "body": "I can undo a committed change.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2298,9 +1725,6 @@
             "body": "I can redo a committed change.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2310,9 +1734,6 @@
             "body": "I can delete an existing attribute layout.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2322,9 +1743,6 @@
             "body": "I can add a new attribute layout.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2334,9 +1752,6 @@
             "body": "I can edit an existing attribute layout.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2346,9 +1761,6 @@
             "body": "I can see different layouts of custom attributes based on an artifact\u2019s type.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2358,9 +1770,6 @@
             "body": "Export project data via file download.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2370,9 +1779,6 @@
             "body": "I can create an account using SSO.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2382,9 +1788,6 @@
             "body": "I cannot see declined trace links.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2394,9 +1797,6 @@
             "body": "I can see un-reviewed trace links as dotted lines and chips.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2406,9 +1806,6 @@
             "body": "I can see custom attributes values on artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2418,9 +1815,6 @@
             "body": "I can edit a custom attribute on my project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2430,9 +1824,6 @@
             "body": "I can delete a custom attribute from my project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2442,9 +1833,6 @@
             "body": "I can add a custom attribute to my project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2454,9 +1842,6 @@
             "body": "I can synchronize my project data coming in from GitHub.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2466,9 +1851,6 @@
             "body": "I can import from GitHub to an existing project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2478,9 +1860,6 @@
             "body": "I can disconnect my GitHub account from my SAFA account.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2490,9 +1869,6 @@
             "body": "I can import a GitHub project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2502,9 +1878,6 @@
             "body": "I can see a list of my GitHub repositories.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2514,9 +1887,6 @@
             "body": "I can disconnect my Jira account from my SAFA account.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2526,9 +1896,6 @@
             "body": "I can link my Jira account to my SAFA account.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2538,9 +1905,6 @@
             "body": "I can link my GitHub account to my SAFA account.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2550,9 +1914,6 @@
             "body": "Create custom attributes on an artifact to track, import, and export additional fields.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2562,9 +1923,6 @@
             "body": "I can generate a TIM file.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2574,9 +1932,6 @@
             "body": "I can create a view from a parent artifact and a list of child artifact types.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2586,9 +1941,6 @@
             "body": "I can create a table view that will not display in graph mode.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2598,9 +1950,6 @@
             "body": "I can edit the permission level of a project member.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2610,9 +1959,6 @@
             "body": "I can add a new member to a project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2622,9 +1968,6 @@
             "body": "I can remove a member or myself from a project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2634,9 +1977,6 @@
             "body": "I can see a project\u2019s members.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2646,9 +1986,6 @@
             "body": "I can search through a project\u2019s members.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2658,9 +1995,6 @@
             "body": "I can log in with valid credentials.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2670,9 +2004,6 @@
             "body": "I can see how many children are hidden below a parent artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2682,9 +2013,6 @@
             "body": "I can see a formatted layout of artifacts when requesting a project delta, including dealing with artifacts not present in current version.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2694,9 +2022,6 @@
             "body": "I can see the current status of a job as in progress, completed, or failed.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2706,9 +2031,6 @@
             "body": "I can see the jobs I created.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2718,9 +2040,6 @@
             "body": "I can see a list of the projects for a specific Jira website.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2730,9 +2049,6 @@
             "body": "I can synchronize my project data coming in from Jira.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2742,9 +2058,6 @@
             "body": "I can import a Jira project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2754,9 +2067,6 @@
             "body": "I can import from Jira to an existing project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2766,9 +2076,6 @@
             "body": "I can create a job for asynchronous execution.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2778,9 +2085,6 @@
             "body": "I can see the logs occurring during my job\u2019s execution.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2790,9 +2094,6 @@
             "body": "View the status of past and in progress jobs.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2802,9 +2103,6 @@
             "body": "I can generate the layout of artifacts for my project views.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2814,9 +2112,6 @@
             "body": "I can add a new artifact to an existing layout, so that the artifact is placed well within the current layout.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2826,9 +2121,6 @@
             "body": "I can log out.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2838,9 +2130,6 @@
             "body": "I can save the layout of artifacts after moving them around.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2850,9 +2139,6 @@
             "body": "I can select and load a version of the project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2862,9 +2148,6 @@
             "body": "Schedule tasks that can take a while to complete.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2874,9 +2157,6 @@
             "body": "I can see real-time job updates on the progress of jobs.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2886,9 +2166,6 @@
             "body": "Trace links represent directional relationships between pairs of artifacts.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2898,9 +2175,6 @@
             "body": "Artifacts represent any block of information defining a piece of a complete project.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2910,9 +2184,6 @@
             "body": "Every part of the SAFA app lives as a child of this artifact.\n\n<br/>\n\n",
             "type": "Core",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2922,9 +2193,6 @@
             "body": "I can see the graph interactions load after changing the project display mode.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2934,9 +2202,6 @@
             "body": "I can see the graph interactions load on initial page load.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2946,9 +2211,6 @@
             "body": "I can see the graph interactions load after changing pages.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2958,9 +2220,6 @@
             "body": "I can see how many artifacts match my search.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2970,9 +2229,6 @@
             "body": "I can add a new artifact type when creating a new artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2982,9 +2238,6 @@
             "body": "View, sort, group, and filter artifacts in a table.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -2994,9 +2247,6 @@
             "body": "I can sort artifacts by their fields.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3006,9 +2256,6 @@
             "body": "I can group artifacts by their fields.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3018,9 +2265,6 @@
             "body": "I can see the counts of grouped generated trace links.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3030,9 +2274,6 @@
             "body": "I can group generated trace links by their fields.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3042,9 +2283,6 @@
             "body": "I can sort trace links by their fields.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3054,9 +2292,6 @@
             "body": "I can un-review an approved or declined trace link.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3066,9 +2301,6 @@
             "body": "I can delete my account after typing in my password.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3078,9 +2310,6 @@
             "body": "I can get notified when the layout has been updated.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3090,9 +2319,6 @@
             "body": "I can see approved, declined, and un-reviewed trace links.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3102,9 +2328,6 @@
             "body": "I can generate a list of trace links using a trained model.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3114,9 +2337,6 @@
             "body": "I can edit my password while logged in.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3126,9 +2346,6 @@
             "body": "Edit account details.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3138,9 +2355,6 @@
             "body": "I can create a project by following the standard steps to upload project files.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3150,9 +2364,6 @@
             "body": "I can delete a set of artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3162,9 +2373,6 @@
             "body": "I cannot create a project without a name and associated organization team.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3174,9 +2382,6 @@
             "body": "I can create a project from a set of flat files representing artifacts and trace links.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3186,9 +2391,6 @@
             "body": "I can see the TIM tree of a project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3198,9 +2400,6 @@
             "body": "View an interactive graph of how all artifact types within a project are related.\n\n<br/>\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3210,9 +2409,6 @@
             "body": "I can automatically download any changes to my project data by other users or asynchronous jobs.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3222,9 +2418,6 @@
             "body": "Receive updates to project data when another user or asynchronous job updates something.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3234,9 +2427,6 @@
             "body": "I can create a commit to change project entities.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3246,9 +2436,6 @@
             "body": "Store commits to undo and redo changes to a project version.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3258,9 +2445,6 @@
             "body": "I will see a snackbar error when an api request fails.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3270,9 +2454,6 @@
             "body": "I can perform an action as a result of a notification.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3282,9 +2463,6 @@
             "body": "Present snackbar messages when things are saved, uploads are scheduled, or errors occur.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3294,9 +2472,6 @@
             "body": "Send email updates for account creation and password reset.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3306,9 +2481,6 @@
             "body": "Receive messages for account information, updates to projects, and important events.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3318,9 +2490,6 @@
             "body": "I can download my current project version as CSV or JSON.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3330,9 +2499,6 @@
             "body": "Create new versions, upload files to existing ones, and delete versions no longer being used.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3342,9 +2508,6 @@
             "body": "Edit project information and delete projects.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3354,9 +2517,6 @@
             "body": "I can see what view I am currently viewing.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3366,9 +2526,6 @@
             "body": "Display the members of a project\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3378,9 +2535,6 @@
             "body": "Display views of subsets of project data.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3390,9 +2544,6 @@
             "body": "Display the content and relationships of an artifact.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3402,9 +2553,6 @@
             "body": "I can delete a trace link.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3414,9 +2562,6 @@
             "body": "Generate trace links between artifacts in a project, including a prediction confidence and explanation.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3426,9 +2571,6 @@
             "body": "Generate and review predicted trace links.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3438,9 +2580,6 @@
             "body": "My project\u2019s layout will be generated when new projects are created or new artifacts are added, or when I manually click to regenerate.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3450,9 +2589,6 @@
             "body": "I can view our privacy policy within the app.\n\n",
             "type": "Security Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3462,9 +2598,6 @@
             "body": "View our data privacy policy.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3474,9 +2607,6 @@
             "body": "Protect against cross-site request forgery (CSRF).\n\n",
             "type": "Security Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3486,9 +2616,6 @@
             "body": "Protect against common attacks.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3498,9 +2625,6 @@
             "body": "Protection from common attacks.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3510,9 +2634,6 @@
             "body": "Tracks changes to a project over time, and allows a user to undo and redo any changes to a version\u2019s artifacts and trace links.\n\n<br/>\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3522,9 +2643,6 @@
             "body": "Generate the layout of artifacts within a project or project subset.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3534,9 +2652,6 @@
             "body": "Manage the members of a project and their permissions, including adding and removing people from projects.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3546,9 +2661,6 @@
             "body": "Define rules to restrict what types of trace links are allowed between artifact types.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3558,9 +2670,6 @@
             "body": "Manage the creation, retrieval, updating, and deletion of views.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3570,9 +2679,6 @@
             "body": "Display the difference between two versions of a project: what was added, modified, removed, or related to changed artifacts.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3582,9 +2688,6 @@
             "body": "Display warnings when project rules are violated.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3594,9 +2697,6 @@
             "body": "Keep projects up-to-date as other users and asynchronous jobs make changes.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3606,9 +2706,6 @@
             "body": "Approve and decline generated trace links.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3618,9 +2715,6 @@
             "body": "Load existing project versions to view, as well as delete and create versions.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3630,9 +2724,6 @@
             "body": "Load existing projects to view, as well as leave, delete, and edit projects.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3642,9 +2733,6 @@
             "body": "I can delete a logged job.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3654,9 +2742,6 @@
             "body": "Submit jobs to create and update project data in bulk.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3666,9 +2751,6 @@
             "body": "View a preview of a project\u2019s TIM tree before confirming its creation.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3678,9 +2760,6 @@
             "body": "Upload matrices of trace links between two artifact types through CSV or JSON format.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3690,9 +2769,6 @@
             "body": "Upload sets of artifacts of the same type through CSV or JSON format. \n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3702,9 +2778,6 @@
             "body": "Quickly create a project from a set of CSV of JSON files and a TIM outline of what files correspond to what data.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3714,9 +2787,6 @@
             "body": "Create a project by importing artifacts and trace links one file at a time,and view a TIM summary of the project being created.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3726,9 +2796,6 @@
             "body": "Reset and change account passwords.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3738,9 +2805,6 @@
             "body": "Log into existing accounts to access the app.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3750,9 +2814,6 @@
             "body": "Create new accounts.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3762,9 +2823,6 @@
             "body": " Import code from GitHub, and sync their project data with GitHub as needed.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3774,9 +2832,6 @@
             "body": "Import projects from Jira, and sync project data with Jira as needed.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3786,9 +2841,6 @@
             "body": "Manage the creation, retrieval, updating, and deletion of trace links between artifacts.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3798,9 +2850,6 @@
             "body": "Manage the creation, retrieval, updating, and deletion of artifacts.\n\n<br/>\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3810,9 +2859,6 @@
             "body": "Search through all artifacts in a project.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3822,9 +2868,6 @@
             "body": "Change the viewport of the artifact tree graph to zoom and pan what is in view.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3834,9 +2877,6 @@
             "body": "All FTA specific document functionality, such as logical nodes.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3846,9 +2886,6 @@
             "body": "All safety-case specific document functionality, such as creating safety case nodes.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3858,9 +2895,6 @@
             "body": "Track the subtrees of artifacts so that their children can be hidden and related artifacts can be displayed.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3870,9 +2904,6 @@
             "body": "Manage the types of artifacts within a project, and how they can be related.\n\n",
             "type": "Feature",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3882,9 +2913,6 @@
             "body": "Project imports and exports from outside sources, such as GitHub and Jira.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3894,9 +2922,6 @@
             "body": "Between two versions of a project, see what was added, modified, or removed, and what artifacts are related to them. \n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3906,9 +2931,6 @@
             "body": "Interactive tables for viewing project artifacts and trace links.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3918,9 +2940,6 @@
             "body": "An interactive graph displaying project artifacts and trace links.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3930,9 +2949,6 @@
             "body": "Save and view subsets of project data.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3942,9 +2958,6 @@
             "body": "View, load, and edit all projects and their versions.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3954,9 +2967,6 @@
             "body": "All access to the app through user accounts.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3966,9 +2976,6 @@
             "body": "Upload new projects and see the progress of submitted project uploads.\n\n",
             "type": "Epic",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3978,9 +2985,6 @@
             "body": "I can create an empty project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -3990,9 +2994,6 @@
             "body": "I cant create an account with an email that has already been used.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4002,9 +3003,6 @@
             "body": "I cant log in with invalid credentials.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4014,9 +3012,6 @@
             "body": "I can duplicate an artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4026,9 +3021,6 @@
             "body": "I can view the artifacts in my project in a tree graph.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4038,9 +3030,6 @@
             "body": "I can see the current progress of a job.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4050,9 +3039,6 @@
             "body": "I can cancel a job that is in progress.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4062,9 +3048,6 @@
             "body": "I can see the last view I was on after loading a project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4074,9 +3057,6 @@
             "body": "In delta view, I can filter the artifact table by delta type.\n\n<br/>\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4086,9 +3066,6 @@
             "body": "When viewing an artifact, I can can navigate to the views that it is visible on.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4098,9 +3075,6 @@
             "body": "I can delete a view.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4110,9 +3084,6 @@
             "body": "I can delete a set of trace links.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4122,9 +3093,6 @@
             "body": "I can preview the list of trace links loaded from a file.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4134,9 +3102,6 @@
             "body": "I can preview the list of artifacts loaded from a file.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4146,9 +3111,6 @@
             "body": "When I log out, all stored project information is cleared.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4158,9 +3120,6 @@
             "body": "I cannot enter credentials without both an email and password.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4170,9 +3129,6 @@
             "body": "When I create an account, I will receive an email to confirm my account.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4182,9 +3138,6 @@
             "body": "I can see the proper shapes for safety case nodes.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4194,9 +3147,6 @@
             "body": "I can see the proper shapes for FTA nodes.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4206,9 +3156,6 @@
             "body": "When viewing a safety case view, I can create safety case artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4218,9 +3165,6 @@
             "body": "When creating a safety case artifact, I can set the safety case type.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4230,9 +3174,6 @@
             "body": "FTA artifacts can only be created with both a logic type and parent artifact selected.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4242,9 +3183,6 @@
             "body": "When viewing an FTA view, I can create FTA type artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4254,9 +3192,6 @@
             "body": "I can select an artifact to see a summary of how it has changed between versions.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4266,9 +3201,6 @@
             "body": "I can see declined trace links only in delta view.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4278,9 +3210,6 @@
             "body": "I can see the delta states of all hidden child artifacts on a parent artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4290,9 +3219,6 @@
             "body": "I can see each artifact\u2019s delta state by the color of its artifacts, and by delta chips on the artifact panel and table.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4302,9 +3228,6 @@
             "body": "I can see each trace link\u2019s delta state by the color of its edges, and by delta chips on the trace panel.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4314,9 +3237,6 @@
             "body": "I can see all added, modified, and removed artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4326,9 +3246,6 @@
             "body": "I can enable delta view by selecting a version to compare against.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4338,9 +3255,6 @@
             "body": "I can disable delta view.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4350,9 +3264,6 @@
             "body": "I can create a new document from artifacts or their types.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4362,9 +3273,6 @@
             "body": "I can edit a view\u2019s name and artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4374,9 +3282,6 @@
             "body": "I can only see the artifacts and links that are associated with my current view.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4386,9 +3291,6 @@
             "body": "My project will be updated when someone else edits the view.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4398,9 +3300,6 @@
             "body": "I can switch between views of my project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4410,9 +3309,6 @@
             "body": "I can change the icon of an artifact type.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4422,9 +3318,6 @@
             "body": "I can remove a rule on what types of artifacts a trace link is allowed between.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4434,9 +3327,6 @@
             "body": "I cannot create trace links between artifact types in both directions.\n\n",
             "type": "Functional Constraint",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4446,9 +3336,6 @@
             "body": "I can hide an artifact\u2019s subtree.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4458,9 +3345,6 @@
             "body": " I can show an artifact\u2019s subtree.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4470,9 +3354,6 @@
             "body": "I can highlight an artifact\u2019s subtree.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4482,9 +3363,6 @@
             "body": "I can create a new trace link.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4494,9 +3372,6 @@
             "body": "I can create a new artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4506,9 +3381,6 @@
             "body": "I can re-center the graph window on my project.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4518,9 +3390,6 @@
             "body": "I can delete an artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4530,9 +3399,6 @@
             "body": "I can see an artifact\u2019s parent and child artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4542,9 +3408,6 @@
             "body": "I can edit an artifact.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4554,9 +3417,6 @@
             "body": "I can see an artifact represented by its type and name.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4566,9 +3426,6 @@
             "body": " I can select an artifact to view more details.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4578,9 +3435,6 @@
             "body": "I can decline an un-reviewed or approved trace link.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4590,9 +3444,6 @@
             "body": "I can approve an un-reviewed or declined trace link.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4602,9 +3453,6 @@
             "body": "I can search my projects by name.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4614,9 +3462,6 @@
             "body": "I can select a project to see its versions.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4626,9 +3471,6 @@
             "body": "I can view a preview of the TIM graph of a project being created.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4638,9 +3480,6 @@
             "body": "I can create a set of trace links by the type of artifacts they join.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4650,9 +3489,6 @@
             "body": "I can generate trace links between artifacts.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4662,9 +3498,6 @@
             "body": "I can upload sets of trace links between two artifact types.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4674,9 +3507,6 @@
             "body": "I can upload a file containing the artifacts I want to create.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4686,9 +3516,6 @@
             "body": "I can create sets of artifacts by their type.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4698,9 +3525,6 @@
             "body": "I can reset my password.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4710,9 +3534,6 @@
             "body": "I can request a password reset email.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         },
@@ -4722,9 +3543,6 @@
             "body": "I can create an account with an unused email.\n\n",
             "type": "Functional Requirement",
             "summary": "",
-            "logicType": null,
-            "safetyCaseType": null,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         }

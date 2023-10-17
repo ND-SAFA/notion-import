@@ -95,9 +95,6 @@ def notion_table_row_to_artifact(
             "body": get_notion_field(notion_page, NotionFieldType.BODY),
             "type": get_notion_field(notion_page, NotionFieldType.TYPE) or "Notion Requirement",
             "summary": "",
-            "logicType": None,
-            "safetyCaseType": None,
-            "documentType": "ARTIFACT_TREE",
             "attributes": {},
             "documentIds": []
         }
