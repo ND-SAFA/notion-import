@@ -49,7 +49,7 @@ def scrape_page(url: str) -> Tuple[Dict, List[str]]:
     content = {"name": url}
 
     if name_el:
-        content["name"] = re.sub(r"http\S+", "", name_el.text.strip())
+        content["name"] = re.sub(r"http\S+", "", name_el.text).strip()
 
     for section in soup.find_all("table"):
         title = section.findPrevious()
@@ -83,9 +83,16 @@ def scrape_firesat() -> None:
 
     for url in page_urls:
         if url not in requirements:
-            requirements[url], child_urls = scrape_page(url)
+            try:
+                requirements[url], child_urls = scrape_page(url)
 
-            # page_urls.extend(child_urls)
+                for child_url in child_urls:
+                    if child_url not in page_urls:
+                        page_urls.append(child_url)
+
+                print(f"Total Pages Extended: {len(page_urls)}")
+            except Exception as e:
+                print(f"Error Scraping Page: {url}")
 
     print("Exporting Data")
 
