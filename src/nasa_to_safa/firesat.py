@@ -12,6 +12,35 @@ from paths import DATA_PATH
 URL_PREFIX = "https://www.opencaesar.io/firesat-example/"
 FIRESAT_URL = f"{URL_PREFIX}navigation.html"
 
+FIELD_MAP = {
+    # Identifier
+    "base:hasIdentifier": "id",
+    "rdfs:label": "name",
+    # Hardware
+    "vim4:hasDoubleNumber": "customAttribute",      # Hardware Number Value
+    "vim4:instantiates": "customAttribute",         # Hardware Value Unit Type
+    "vim4:unit": "customAttribute",                 # Hardware Value Unit
+    # Other Attributes
+    "rdf:type": "customAttribute",
+    # Traces
+    "analysis:characterizes": "traceToChild",
+    "analysis:isCharacterizedBy": "traceToParent",
+    "base:aggregates": "traceToChild",
+    "base:isAggregatedIn": "traceToParent",
+    "base:contains": "traceToChild",
+    "base:isContainedIn": "traceToParent",
+    "mission:refines": "traceToChild",
+    "mission:isRefinedBy": "traceToParent",
+    "mission:specifies": "traceToChild",
+    "mission:isSpecifiedBy": "traceToParent",
+    "mission:invokes": "traceToChild",
+    "mission:isInvokedBy": "traceToParent",
+    "mission:performs": "traceToChild",
+    "mission:isPerformedBy": "traceToParent",
+    "project:realizes": "traceToChild",
+    "project:isRealizedBy": "traceToParent",
+}
+
 
 def collect_pages() -> List[str]:
     """
@@ -46,14 +75,14 @@ def scrape_page(url: str) -> Tuple[Dict, List[str]]:
     soup = BeautifulSoup(response.text, "html.parser")
     name_el = soup.find("h2")
     child_urls = []
-    content = {"name": url}
+    content = {"name": url, "type": ""}
 
     if name_el:
-        content["name"] = re.sub(r"http\S+", "", name_el.text).strip()
+        content["type"], content["name"] = re.sub(r"http\S+", "", name_el.text).strip().split(":")
 
     for section in soup.find_all("table"):
-        title = section.findPrevious()
-        items = section.find_all_next("tr")
+        title = section.findPrevious("h3")
+        items = section.find_all("tr")
         row_content = []
 
         for item in items:
