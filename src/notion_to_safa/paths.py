@@ -4,4 +4,4 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DATA_PATH = os.path.normpath(os.path.join(os.path.dirname(__file__), "../..", "data"))
+DATA_PATH = os.path.normpath(os.path.join(os.path.dirname(__file__), "../..", "data/notion_to_safa"))
